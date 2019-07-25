@@ -1,0 +1,42 @@
+/* .myClass {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+} */
+
+.unselectable {
+  /* -moz-user-select: none !important;
+  -khtml-user-select: none !important; */
+  -webkit-user-select: none !important;
+  /* -ms-user-select: none !important; */
+  user-select: none !important;
+  color: blueviolet;
+}
+
+/* .test {
+  -webkit-tap-highlight-color: transparent !important;
+} */
+
+.test {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+::-ms-selection {
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+::selection {
+  background: transparent;
+}
